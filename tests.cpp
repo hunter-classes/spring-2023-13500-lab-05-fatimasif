@@ -16,3 +16,11 @@ TEST_CASE("isDivisibleBy Cases") {
   CHECK(isDivisibleBy(125, 5) == 1);
   CHECK(isDivisibleBy(10, 3) == 0);
 }
+
+    // TASK B
+TEST_CASE("isPrime Cases") {
+  CHECK(isPrime(2) == 1);
+  CHECK(isPrime(4) == 0);
+  CHECK(isPrime(17) == 1);
+  CHECK(isPrime(100) == 0);
+}

@@ -16,4 +16,7 @@ Assignment: funcs.h, lab-05
     // TASK A
 bool isDivisibleBy(int n, int d);
 
+    // TASK B
+bool isPrime(int n);
+
 #endif
