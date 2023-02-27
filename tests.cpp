@@ -24,3 +24,9 @@ TEST_CASE("isPrime Cases") {
   CHECK(isPrime(17) == 1);
   CHECK(isPrime(100) == 0);
 }
+
+    // TASK C
+TEST_CASE("nextPrime Cases") {
+  CHECK(nextPrime(14) == 17);
+  CHECK(nextPrime(17) == 19);
+}

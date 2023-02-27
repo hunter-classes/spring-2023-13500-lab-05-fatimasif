@@ -19,4 +19,7 @@ bool isDivisibleBy(int n, int d);
     // TASK B
 bool isPrime(int n);
 
+    // TASK C
+int nextPrime(int n);
+
 #endif

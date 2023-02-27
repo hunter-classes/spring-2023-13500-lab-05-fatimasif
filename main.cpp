@@ -40,5 +40,17 @@ int main()
 
     std::cout << "\n" << std::endl; // space between tasks
 
+      // TASK C
+    std::cout << "Task C" << std::endl;
+    int resultG;
+    resultG = nextPrime(14);
+    std::cout << resultG << std::endl;   // returns 17
+    int resultH;
+    resultH = nextPrime(17);
+    std::cout << resultH << std::endl;  // returns 19
+
+    std::cout << "\n" << std::endl; // space between tasks
+
+    
   return 0;
 }

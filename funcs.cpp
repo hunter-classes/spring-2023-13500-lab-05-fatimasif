@@ -43,3 +43,24 @@ bool isPrime(int n) {
     }
     return true;    // if it passes the for loop then n is a prime number
 }
+
+/*
+TASK C
+Add a function
+int nextPrime(int n);
+that returns the smallest prime greater than n.
+For example:
+nextPrime(14) == 17
+nextPrime(17) == 19
+Change the main function to test the new code.
+*/
+
+int nextPrime(int n) {
+    int nextPrimeNum = n + 1;   // initializing variable nextPrimeNum which is the first number greater than n
+        // creating a while loop that will run until nextPrimeNum is not prime any longer
+    while(!isPrime(nextPrimeNum)) {     // checks whether nextPrimeNum is prime using the isPrime function that was defined before
+        nextPrimeNum++;     // if it is not prime then nextPrimeNum is incremented by 1 and the loop runs again
+    }
+    return nextPrimeNum;
+  
+}
