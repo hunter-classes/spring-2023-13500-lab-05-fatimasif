@@ -30,3 +30,9 @@ TEST_CASE("nextPrime Cases") {
   CHECK(nextPrime(14) == 17);
   CHECK(nextPrime(17) == 19);
 }
+
+    // TASK D
+TEST_CASE("countPrimes Cases") {
+  CHECK(countPrimes(1, 10) == 4);
+  CHECK(countPrimes(50, 100) == 10);
+}

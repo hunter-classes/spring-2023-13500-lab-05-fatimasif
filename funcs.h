@@ -22,4 +22,7 @@ bool isPrime(int n);
     // TASK C
 int nextPrime(int n);
 
+    // TASK D
+int countPrimes(int a, int b);
+
 #endif

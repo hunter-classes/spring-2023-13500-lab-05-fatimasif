@@ -51,6 +51,15 @@ int main()
 
     std::cout << "\n" << std::endl; // space between tasks
 
-    
+      // TASK D
+    std::cout << "Task D" << std::endl;
+    int resultI = countPrimes(1, 10);
+    std::cout << resultI << std::endl;
+    int resultJ = countPrimes(50, 100);
+    std::cout << resultJ << std::endl;
+
+    std::cout << "\n" << std::endl; // space between tasks
+
+
   return 0;
 }

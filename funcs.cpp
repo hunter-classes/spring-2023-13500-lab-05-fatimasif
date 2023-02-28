@@ -64,3 +64,21 @@ int nextPrime(int n) {
     return nextPrimeNum;
   
 }
+
+/*
+TASK D
+Add a function
+int countPrimes(int a, int b);
+that returns the number of prime numbers in the interval a ≤ x ≤ b. 
+*/
+
+int countPrimes(int a, int b) {
+    int count = 0;      // initializing a variable count to keep track of the prime number in the interval
+    for (int i = a; i <= b; i++) {      // loop through the integers in the interval a ≤ x ≤ b
+        if (isPrime(i)) {       // check whether each integer i is prime by calling the isPrime function defined earlier
+            count++;        // increment count variable by 1
+        }
+    }
+    return count;   // return the final value of count which gives the total number of prime numbers in the interval a ≤ x ≤ b
+
+}
