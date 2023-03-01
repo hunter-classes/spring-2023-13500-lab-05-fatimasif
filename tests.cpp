@@ -36,3 +36,10 @@ TEST_CASE("countPrimes Cases") {
   CHECK(countPrimes(1, 10) == 4);
   CHECK(countPrimes(50, 100) == 10);
 }
+
+  // TASK E
+    // TASK D
+TEST_CASE("isTwinPrime Cases") {
+  CHECK(isTwinPrime(17) == 1);
+  CHECK(isTwinPrime(23) == 0);
+}

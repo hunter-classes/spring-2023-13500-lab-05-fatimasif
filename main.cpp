@@ -60,6 +60,17 @@ int main()
 
     std::cout << "\n" << std::endl; // space between tasks
 
+      // TASK E
+    std::cout << "Task E" << std::endl;
+    int resultK = isTwinPrime(17);
+    std::cout << resultK << std::endl;
+    int resultL = isTwinPrime(23);
+    std::cout << resultL << std::endl;
+
+      // TASK F
+
 
   return 0;
+
+
 }

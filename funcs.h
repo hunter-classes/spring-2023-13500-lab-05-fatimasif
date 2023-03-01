@@ -25,4 +25,7 @@ int nextPrime(int n);
     // TASK D
 int countPrimes(int a, int b);
 
+    // TASK E
+bool isTwinPrime(int n);
+
 #endif

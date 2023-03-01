@@ -82,3 +82,22 @@ int countPrimes(int a, int b) {
     return count;   // return the final value of count which gives the total number of prime numbers in the interval a ≤ x ≤ b
 
 }
+
+/*
+TASK E
+A prime number N is called a twin prime if either N-2 or N+2 (or both of them) is also a prime.
+For example, a prime 17 is a twin prime, because 17+2 = 19 is a prime as well.
+The first few twin primes are: 3, 5, 7, 11, 13, 17, 19, 29, 31 …
+Add a function bool isTwinPrime(int n);
+that determines whether or not its argument is a twin prime. 
+*/
+
+bool isTwinPrime(int n) {
+    if (!isPrime(n)) {  // if n is not prime, it can't be a twin prime
+        return false;
+    }
+    if (isPrime(n - 2) || isPrime(n + 2)) {  // check whether n-2 or n+2 is prime
+        return true;
+    }
+    return false;
+}
