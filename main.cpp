@@ -76,6 +76,17 @@ int main()
     int resultN = nextTwinPrime(17);
     std::cout << resultN << std::endl;
 
+    std::cout << "\n" << std::endl; // space between tasks
+
+      // TASK G
+    std::cout << "Task G" << std::endl;
+    int resultO = largestTwinPrime(5, 18);  // returns 17
+    std::cout << resultO << std::endl;
+    int resultP = largestTwinPrime(1, 31);  // returns 31
+    std::cout << resultP << std::endl;
+    int resultQ = largestTwinPrime(14, 16); // returns -1 
+    std::cout << resultQ << std::endl;
+
   return 0;
-  
+
 }

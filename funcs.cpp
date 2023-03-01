@@ -120,3 +120,22 @@ int nextTwinPrime(int n) {
         nextTwinPrimeNum++;     // otherwise it is incremented and the loop continues
     }
 }
+
+/*
+TASK G
+Add a function
+int largestTwinPrime(int a, int b);
+that returns the largest twin prime in the range a ≤ N ≤ b.
+If there is no twin primes in range, then return -1.
+*/
+
+int largestTwinPrime(int a, int b) {
+    int largest = -1;   // will store the largest twin prime
+        // loop to check the range from a to b to see if it is a twin prime
+    for (int i = a; i <= b; i++) {
+        if (isTwinPrime(i)) {   // if i is a twin prime it will update largest to i
+            largest = i;
+        }
+    }
+    return largest; // returns largest prime number or -1 if there is no prime number
+}

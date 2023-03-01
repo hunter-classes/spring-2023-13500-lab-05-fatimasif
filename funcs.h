@@ -31,4 +31,7 @@ bool isTwinPrime(int n);
     // TASK F
 int nextTwinPrime(int n);
 
+    // TASK G
+int largestTwinPrime(int a, int b);
+
 #endif
