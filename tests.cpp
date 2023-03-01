@@ -38,8 +38,13 @@ TEST_CASE("countPrimes Cases") {
 }
 
   // TASK E
-    // TASK D
 TEST_CASE("isTwinPrime Cases") {
   CHECK(isTwinPrime(17) == 1);
   CHECK(isTwinPrime(23) == 0);
+}
+
+  // TASK F
+TEST_CASE("nextTwinPrime Cases") {
+  CHECK(nextTwinPrime(5) == 7);
+  CHECK(nextTwinPrime(17) == 19);
 }

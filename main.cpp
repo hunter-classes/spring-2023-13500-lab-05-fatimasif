@@ -67,10 +67,15 @@ int main()
     int resultL = isTwinPrime(23);
     std::cout << resultL << std::endl;
 
-      // TASK F
+    std::cout << "\n" << std::endl; // space between tasks
 
+      // TASK F
+    std::cout << "Task F" << std::endl;
+    int resultM = nextTwinPrime(5);
+    std::cout << resultM << std::endl;
+    int resultN = nextTwinPrime(17);
+    std::cout << resultN << std::endl;
 
   return 0;
-
-
+  
 }

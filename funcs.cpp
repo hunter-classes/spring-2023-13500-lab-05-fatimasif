@@ -101,3 +101,22 @@ bool isTwinPrime(int n) {
     }
     return false;
 }
+
+/*
+TASK F
+Add a function
+int nextTwinPrime(int n);
+that returns the smallest twin prime greater than n.
+*/
+
+int nextTwinPrime(int n) {
+    int nextTwinPrimeNum = n + 1;
+        // entering a loop where the function checks if nextTwinPrimeNum is a twin prime 
+        // by calling the isTwinPrime function
+    while (true) {
+        if (isTwinPrime(nextTwinPrimeNum)) {
+            return nextTwinPrimeNum;    // if nextTwinPrimeNum is a twin then it is returned
+        }
+        nextTwinPrimeNum++;     // otherwise it is incremented and the loop continues
+    }
+}
